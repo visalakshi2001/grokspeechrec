@@ -16,13 +16,14 @@ pip install --upgrade grokspeechrec
 ```
 
 ## Usage
-Once you have it installed, import the module and use it to pass Microphone Speech as shown below:
+Once you have it installed, import the module and use it to pass Microphone Speech as shown below:  
 
-    from grokspeechrec import speechrec
+```python  
+from grokspeechrec import speechrec
 
-    rec = speechrec.app.Recognize()
-    output = rec.recognize(rec.model)
-
+rec = speechrec.app.Recognize()
+output = rec.recognize(rec.model)  
+```  
 The `output` will contain the transcribed results.
 
 
